@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Contact - Jérémie Diop</title>
+  <meta content="Contactez Jérémie Diop, créateur de mode gabonais. Formulaire de contact, email, réseaux sociaux, téléphone." name="description">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body class="contact-page">
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <div class="profile-img">
+      <img src="assets/img/jeremie-diop-profile.jpg" alt="Jérémie Diop" class="img-fluid rounded-circle">
+    </div>
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <img src="assets/img/logo-jeremie-diop.jpg" alt="Logo Jérémie Diop" style="max-width: 60px;">
+      <h1 class="sitename">Jérémie Diop</h1>
+    </a>
+    <div class="social-links text-center">
+      <a href="https://instagram.com/jeremiediop" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://facebook.com/profile.php?id=100094738447865" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://linkedin.com/in/jeremiediop" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html"><i class="bi bi-house navicon"></i>Accueil</a></li>
+        <li><a href="about.html"><i class="bi bi-person navicon"></i> À propos</a></li>
+        <li><a href="portfolio.html"><i class="bi bi-images navicon"></i> Collections</a></li>
+        <li><a href="parcours.html"><i class="bi bi-award navicon"></i> Parcours</a></li>
+        <li><a href="actualites.html"><i class="bi bi-newspaper navicon"></i> Actualités</a></li>
+        <li><a href="contact.html" class="active"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="contact section py-5">
+      <div class="container">
+        <div class="section-title text-center mb-5">
+          <h2 class="section-title-main" style="color: var(--color-heading); font-size:2.5rem; font-weight:700; letter-spacing:1px;">Contact</h2>
+          <p class="lead" style="color:var(--color-text); font-size:1.2rem;">Pour toute demande de collaboration, de création ou d'information, contactez-moi via ce formulaire ou sur les réseaux sociaux.</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form">
+              <div class="form-group mb-3">
+                <label for="name">Nom</label>
+                <input type="text" name="name" class="form-control" id="name" required>
+              </div>
+              <div class="form-group mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="email" id="email" required>
+              </div>
+              <div class="form-group mb-3">
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" id="message" rows="6" required></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-gold">Envoyer</button>
+              </div>
+            </form>
+            <div class="mt-4">
+              <p><i class="bi bi-envelope"></i> <a href="mailto:contact@jeremiediop.com">contact@jeremiediop.com</a></p>
+              <p><i class="bi bi-telephone"></i> +241 06 00 00 00</p>
+              <p><i class="bi bi-geo-alt"></i> Libreville, Gabon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer mt-5">
+    <div class="container text-center">
+      <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+        <a href="index.html" class="btn btn-gold btn-sm">Accueil</a>
+        <a href="about.html" class="btn btn-gold btn-sm">À propos</a>
+        <a href="portfolio.html" class="btn btn-gold btn-sm">Collections</a>
+        <a href="parcours.html" class="btn btn-gold btn-sm">Parcours</a>
+        <a href="actualites.html" class="btn btn-gold btn-sm">Actualités</a>
+      </div>
+      <p class="mb-1">&copy; 2024 Jérémie Diop. Tous droits réservés.</p>
+      <div class="credits">Site réalisé avec passion par Jérémie Diop.</div>
+    </div>
+  </footer>
+</body>
+</html> 
